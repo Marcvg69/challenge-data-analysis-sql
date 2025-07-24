@@ -1,0 +1,94 @@
+=== Tables and Columns ===
+
+Table: denomination
+  - EntityNumber (TEXT)
+  - Language (INTEGER)
+  - TypeOfDenomination (INTEGER)
+  - Denomination (TEXT)
+
+Table: branch
+  - Id (TEXT)
+  - StartDate (TEXT)
+  - EnterpriseNumber (TEXT)
+
+Table: activity
+  - EntityNumber (TEXT)
+  - ActivityGroup (INTEGER)
+  - NaceVersion (INTEGER)
+  - NaceCode (INTEGER)
+  - Classification (TEXT)
+
+Table: establishment
+  - EstablishmentNumber (TEXT)
+  - StartDate (TEXT)
+  - EnterpriseNumber (TEXT)
+
+Table: address
+  - EntityNumber (TEXT)
+  - TypeOfAddress (TEXT)
+  - CountryNL (TEXT)
+  - CountryFR (TEXT)
+  - Zipcode (TEXT)
+  - MunicipalityNL (TEXT)
+  - MunicipalityFR (TEXT)
+  - StreetNL (TEXT)
+  - StreetFR (TEXT)
+  - HouseNumber (TEXT)
+  - Box (TEXT)
+  - ExtraAddressInfo (TEXT)
+  - DateStrikingOff (TEXT)
+
+Table: contact
+  - EntityNumber (TEXT)
+  - EntityContact (TEXT)
+  - ContactType (TEXT)
+  - Value (TEXT)
+
+Table: meta
+  - Variable (TEXT)
+  - Value (TEXT)
+
+Table: code
+  - Category (TEXT)
+  - Code (TEXT)
+  - Language (TEXT)
+  - Description (TEXT)
+
+Table: enterprise
+  - EnterpriseNumber (TEXT)
+  - Status (TEXT)
+  - JuridicalSituation (INTEGER)
+  - TypeOfEnterprise (INTEGER)
+  - JuridicalForm (REAL)
+  - JuridicalFormCAC (REAL)
+  - StartDate (TEXT)
+
+=== Indices (PK/Unique/Other) ===
+
+Index: EstablishmentNumber
+  - column: EstablishmentNumber
+
+Index: EnterpriseNumber
+  - column: EnterpriseNumber
+
+Index: EntityNumber
+  - column: EntityNumber
+
+Index: 
+  - column: EntityNumber
+
+Index: branch_EnterpriseNumber_idx
+  - column: EnterpriseNumber
+
+Index: code_Code_idx
+  - column: Code
+
+Index: contact_EntityNumber_idx
+  - column: EntityNumber
+
+Index: denomination_EntityNumber_idx
+  - column: EntityNumber
+  - Unique: No
+
+Index: enterprise_EnterpriseNumber_idx
+  - column: EnterpriseNumber
