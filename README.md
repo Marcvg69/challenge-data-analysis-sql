@@ -30,8 +30,11 @@ This repository contains the analysis of Belgian IT companies based on the offic
    ```bash
    pip install -r requirements.txt
    ```
+4. **Download the KBO database to your <repo-folder>**  
+   A copy can be downloaded using the link below
+   https://drive.google.com/file/d/1QWmV2YQ9dBx3J6asLEb3e_lpjDIrUb-f/edit
 
-4. **Run the main notebook**  
+5. **Run the main notebook**  
    Open `kbo_explore.ipynb` in Jupyter or VS Code and run the cells sequentially.
 
 ## 📊 What’s Inside?
