@@ -16,8 +16,8 @@ This repository contains the analysis of Belgian IT companies based on the offic
 
 1. **Clone this repository**  
    ```bash
-   git clone <repo-url>
-   cd <repo-folder>
+   git clone https://github.com/Marcvg69/challenge-data-analysis-sql.git
+   cd <repo-folder>  (with repo-folder = name of your repo folder)
    ```
 
 2. **Set up a virtual environment (optional but recommended)**  
