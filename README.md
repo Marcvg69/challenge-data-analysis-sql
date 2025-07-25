@@ -30,7 +30,7 @@ This repository contains the analysis of Belgian IT companies based on the offic
    ```bash
    pip install -r requirements.txt
    ```
-4. **Download the KBO database to your <repo-folder>**  
+4. **Download the KBO database to your repo-folder**  
    A copy can be downloaded using the link below
    https://drive.google.com/file/d/1QWmV2YQ9dBx3J6asLEb3e_lpjDIrUb-f/edit
 
